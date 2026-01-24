@@ -1,0 +1,31 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: .41vmin solid black;
+    padding: .51em;
+}
+.name{
+    border: none;
+    background-color: aqua;
+    height: 2em;
+   
+
+}
+.showresult{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+.showtemp{
+    border: 2px solid black;
+    height: 15em;
+    width: 15em;
+    margin: 2em;
+  
+}
+.tempresult{
+    font-size: 2em;
+    text-align: center;
+}
